@@ -17,6 +17,8 @@ jobs:
         with:
           node-version: '17'
           cache: 'npm'
-      - run: cd 6.4.3
+          cache-dependency-path: 6.4.3/package-lock.json
       - run: npm install
+        working-directory: 6.4.3
       - run: npm run generate
+        working-directory: 6.4.3
