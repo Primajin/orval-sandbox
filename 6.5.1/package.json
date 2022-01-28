@@ -1,0 +1,24 @@
+{
+  "name": "sandbox-651",
+  "version": "1.0.0",
+  "description": "6-5-1",
+  "main": "index.ts",
+  "private": true,
+  "scripts": {
+    "generate": "rm -rf ./src/** && orval --config orval.config.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hello.planet.com/code/product/planet-browser.git"
+  },
+  "author": "Jannis Hell",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "react-query": "^3.34.8"
+  },
+  "devDependencies": {
+    "orval": "^6.5.1",
+    "typescript": "^4.5.4"
+  }
+}
